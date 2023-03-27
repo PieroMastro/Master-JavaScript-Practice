@@ -1,3 +1,8 @@
-function isOldEnoughToDrinkAndDrive(age) {
-  // your code here
-}
+// function isOldEnoughToDrinkAndDrive(age) {
+//     return false;
+// }
+
+const isOldEnoughToDrinkAndDrive = (age) => false;
+
+let output = isOldEnoughToDrinkAndDrive(22);
+console.log(output); // --> false

@@ -1,5 +1,9 @@
-function computePerimeterOfARectangle(length, width) {
-  // your code here
-}
+
+// function computePerimeterOfARectangle(length, width) {
+//   return 2 * (length + width);
+// }
+
+const computePerimeterOfARectangle = (length, width) => 2 * (length + width);
+
 let output = computePerimeterOfARectangle(5, 2);
 console.log(output);

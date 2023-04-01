@@ -1,5 +1,9 @@
-function removeFromFrontOfNew(arr) {
-    return arr.slice(1);
+// function removeFromFrontOfNew(arr) {
+//     return arr.slice(1);
+// }
+
+const removeFromFrontOfNew = (array) => {
+    return array.filter((element, index) => index !== 0);
 }
 
 let arr = [1, 2, 3];
